@@ -1,0 +1,43 @@
+On Day 1, my focus was on setting up the development environment and initializing my first Next.js project. Here’s what I accomplished:
+
+
+    Installed Node.js and verified the installation
+    
+    I downloaded the LTS version of Node.js from [https://nodejs.org](https://nodejs.org/) and confirmed successful installation by running:
+    
+    node -v
+    npm -v
+    
+    Created my first Next.js application
+    
+    I used the official starter command:
+    
+    npx create-next-app@latest my-nextjs-app
+    
+    I selected the default configuration, enabling TypeScript and ESLint during setup.
+    The CLI tool scaffolded a complete Next.js project with all the necessary files and structure.
+    Explored the generated project structure**, with attention to key directories and files:
+    `pages/` – for file-based routing, including a default `index.tsx` which acts as the homepage.
+    `public/` – to store static assets like images, icons, and favicons.
+    `styles/` – which contains both global styles (`globals.css`) and module-level styles.
+    `next.config.js` – the main Next.js configuration file.
+    `package.json` – holds project metadata and dependency information.
+    
+ Launched the development server
+ I ran the dev server using:
+
+            npm run dev
+
+ Accessed the default Next.js app at [http://localhost:3000](http://localhost:3000/)
+ Verified the default welcome screen was visible, confirming that the setup was successful.
+
+
+
+Today’s session laid the foundation for my Next.js learning journey. I gained hands-on experience with:
+
+ Installing and validating Node.js and npm
+ Bootstrapping a new Next.js project using the official CLI
+ Understanding how Next.js structures applications out of the box
+ Launching the local development server and confirming a successful setup
+
+This initial setup has provided a solid base to build upon in the upcoming days as I dive deeper into routing, component creation, and data handling with Next.js.
