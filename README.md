@@ -1,30 +1,43 @@
-# Portfolio Website
+Sakara – Creative Solutions
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+## Project Description
 
-## Installation
+**Sakara – Creative Solutions** is a modern, responsive website built with Next.js to showcase creative consulting, branding, and tech services. The site features animated hero sections, a services overview, testimonials, and a strong focus on design and accessibility. It is optimized for SEO and social sharing, and is fully mobile-friendly.
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+---
 
-## Usage
+## Steps to Run Locally
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/your-username/sakara-creative-solutions.git
+    cd sakara-creative-solutions
+    ```
 
-## Dependencies
+2. **Install Dependencies**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-The following dependencies are required for this project:
+3. **Run the Development Server**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+4. **Open in your Browser**
 
-## License
+    Visit [http://localhost:3000](http://localhost:3000) to view the site.
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+---
 
+## Technologies Used
+
+- **Next.js** – React framework for SSR and SSG
+- **React** – UI library
+- **CSS (styled-jsx)** – Scoped component styling and animations
+- **Vercel** – Deployment and hosting
+- **ESLint & Prettier** – Code quality and formatting tool
