@@ -161,3 +161,27 @@ input:focus, textarea:focus {
     transform: translateY(0) scale(1);
   }
 }
+/* Remove header/nav blue background on mobile */
+@media (max-width: 600px) {
+  .header {
+    background: none !important;
+    background-color: transparent !important;
+    /* If a background image is set, unset it too: */
+    background-image: none !important;
+    box-shadow: none !important; /* Optional: remove any shadow */
+  }
+}
+
+/* Arrange cards in 2 columns per row on mobile */
+@media (max-width: 600px) {
+  .services-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .service-card {
+    width: 100%;
+    box-sizing: border-box;
+    /* Remove any max-width or flex that forces 1 per row on mobile */
+  }
+}
