@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "company": { "catchPhrase": "Modern and scalable web apps" },
+      "email": "web@yourcompany.com"
+    },
+    {
+      "id": 2,
+      "name": "UI/UX Design",
+      "company": { "catchPhrase": "Beautiful and user-friendly designs" },
+      "email": "design@yourcompany.com"
+    },
+    {
+      "id": 3,
+      "name": "SEO Optimization",
+      "company": { "catchPhrase": "Rank higher in search results" },
+      "email": "seo@yourcompany.com"
+    }
+  ]
+}
