@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(135deg, #e3ebf2 0%, #d1dbe3 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-container {
+  background: #fff;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 40px 0 rgba(60, 72, 100, 0.18);
+  min-width: 350px;
+  max-width: 420px;
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dashboard-container h1 {
+  color: #34495e;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.5px;
+}
+
+.dashboard-container .user-email {
+  color: #7281a3;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.dashboard-container button {
+  background: linear-gradient(90deg, #a7b7cc 0%, #8a9ebd 100%);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.8rem 2.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(41, 98, 255, 0.06);
+  transition: background 0.2s, transform 0.1s;
+}
+
+.dashboard-container button:hover,
+.dashboard-container button:focus {
+  background: linear-gradient(90deg, #8a9ebd 0%, #7281a3 100%);
+  transform: translateY(-2px) scale(1.03);
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .dashboard-container {
+    min-width: 0;
+    max-width: 97vw;
+    padding: 2rem 0.5rem;
+  }
+}
