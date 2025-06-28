@@ -1,22 +1,127 @@
-.banner {
+.hero {
   background: linear-gradient(90deg, #2563eb 60%, #1e40af 100%);
-  padding: 3rem 0 2rem 0;
-  text-align: center;
   color: #fff;
+  padding: 5rem 1rem 4rem 1rem;
+  text-align: center;
+  border-radius: 0 0 2.5rem 2.5rem;
 }
-.bannerTitle {
-  font-size: 2.5rem;
+.heroContent h1 {
+  font-size: 2.7rem;
   font-weight: 700;
-  margin: 0;
+  margin-bottom: 1rem;
+}
+.heroContent h1 span {
+  color: #a5b4fc;
+}
+.heroContent p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.ctaBtn {
+  display: inline-block;
+  background: #fff;
+  color: #1d4ed8;
+  font-weight: 600;
+  padding: 0.9rem 2.3rem;
+  border-radius: 999px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 12px rgba(30,64,175,0.10);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.ctaBtn:hover {
+  background: #1d4ed8;
+  color: #fff;
+  box-shadow: 0 6px 24px rgba(30,64,175,0.13);
+}
+
+.servicesSection {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1rem 2rem 1rem;
+}
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: #1d4ed8;
   letter-spacing: 1px;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2.5rem 1rem;
-}
-.grid {
+.servicesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
+}
+.serviceCard {
+  background: #fff;
+  padding: 2.3rem 1.7rem 2rem 1.7rem;
+  border-radius: 1.3rem;
+  box-shadow: 0 2px 16px rgba(30,64,175,0.10);
+  text-align: center;
+  border: 1px solid #e0e7ff;
+  transition: box-shadow 0.18s, transform 0.18s;
+  position: relative;
+  overflow: hidden;
+}
+.serviceCard:hover {
+  box-shadow: 0 8px 32px rgba(30,64,175,0.18);
+  transform: translateY(-8px) scale(1.025);
+  border-color: #a5b4fc;
+}
+.icon {
+  font-size: 2.5rem;
+  margin-bottom: 1.1rem;
+}
+.serviceCard h3 {
+  color: #2563eb;
+  margin-bottom: 0.6rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.serviceCard p {
+  color: #334155;
+  font-size: 1rem;
+}
+
+.ctaSection {
+  margin: 4rem 0 2rem 0;
+  text-align: center;
+}
+.ctaSection h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+.ctaSection p {
+  font-size: 1.1rem;
+  color: #334155;
+  margin-bottom: 1.2rem;
+}
+.ctaLink {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.8rem 2.1rem;
+  border-radius: 999px;
+  font-size: 1.08rem;
+  text-decoration: none;
+  box-shadow: 0 2px 12px rgba(37,99,235,0.10);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.ctaLink:hover {
+  background: #1e40af;
+}
+
+@media (max-width: 600px) {
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+  .servicesSection {
+    padding-top: 2rem;
+  }
+  .ctaSection {
+    margin-top: 2rem;
+  }
 }
