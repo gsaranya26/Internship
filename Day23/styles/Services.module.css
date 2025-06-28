@@ -1,0 +1,22 @@
+.banner {
+  background: linear-gradient(90deg, #b7c5e4 60%, #1e40af 100%);
+  padding: 3rem 0 2rem 0;
+  text-align: center;
+  color: #fff;
+}
+.bannerTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1rem;
+}
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
