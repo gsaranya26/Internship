@@ -1,0 +1,30 @@
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(30, 64, 175, 0.08);
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 340px;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  border: 1px solid #e0e7ff;
+}
+.card:hover {
+  box-shadow: 0 8px 24px rgba(30,64,175,0.15);
+  transform: translateY(-6px) scale(1.025);
+}
+.icon {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #2563eb;
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin-bottom: 0.4rem;
+}
+.desc {
+  color: #334155;
+  font-size: 1rem;
+}

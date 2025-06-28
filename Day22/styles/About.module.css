@@ -1,0 +1,77 @@
+.banner {
+  background: linear-gradient(90deg, #9de3fd 60%, #1e40af 100%);
+  padding: 3rem 0 2rem 0;
+  text-align: center;
+  color: #fff;
+}
+.bannerTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.intro {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.introImg {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 2px 14px rgba(30, 64, 175, 0.15);
+}
+.timelineSec h2 {
+  margin-bottom: 1rem;
+}
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 3px solid #2563eb;
+}
+.timeline li {
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.timeline li span {
+  position: absolute;
+  left: -2.2rem;
+  top: 0.2rem;
+  background: #2563eb;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 5px rgba(37,99,235,0.07);
+}
+.timeline li strong {
+  color: #2563eb;
+  font-size: 1.08rem;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+}
+.timeline li p {
+  margin: 0.2rem 0 0.1rem 0;
+  color: #334155;
+  font-size: 0.99rem;
+}
+@media (max-width: 600px) {
+  .intro { grid-template-columns: 1fr; gap: 1rem; }
+  .introImg { margin: 0 auto; }
+}
